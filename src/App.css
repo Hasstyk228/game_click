@@ -4,6 +4,7 @@ html{
     background: rgb(245, 241, 253);
     touch-action: manipulation;
     user-select: none;
+    overscroll-behavior-y: contain;
 }
 
 .section{
