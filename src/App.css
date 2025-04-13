@@ -14,6 +14,7 @@ html{
     margin: auto;
     height: 700px;
     margin-top: 20px;
+    overscroll-behavior-y: contain;
 }
 
 .section *{
