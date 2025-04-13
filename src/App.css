@@ -4,7 +4,8 @@ html{
     background: rgb(245, 241, 253);
     touch-action: manipulation;
     user-select: none;
-    overscroll-behavior-y: contain;
+    overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 .section{
@@ -14,7 +15,6 @@ html{
     margin: auto;
     height: 700px;
     margin-top: 20px;
-    overscroll-behavior-y: contain;
 }
 
 .section *{
