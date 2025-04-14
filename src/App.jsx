@@ -49,7 +49,7 @@ export default function App() {
 
   useEffect(() => {
     if (coords) {
-      const timer = setTimeout(() => {setCoords(null)}, 4000);
+      const timer = setTimeout(() => {setCoords(null)}, 1000);
       return () => clearTimeout(timer);
     }
   }, [coords]);
@@ -269,7 +269,7 @@ function endText (value) {
                     borderRadius:'100px',
                     background: 'linear-gradient(140deg,rgba(255, 221, 0, 1) 22%, rgb(255, 243, 176) 35%, rgb(255, 251, 182) 38%, rgba(255, 225, 0, 1) 51%, rgba(255, 225, 0, 1) 35%, rgb(254, 247, 170) 58%, rgb(254, 255, 191) 61%, rgba(255, 225, 0, 1) 73%)',
                     boxShadow: '1px 0px 0px 1px rgb(158, 116, 0)',
-                    fontSize: 'clamp(12px, 3vw, 32px)',
+                    fontSize: 'clamp(12px, 14px, 32px)',
                     whiteSpace: 'nowrap',
                     overflow: 'hidden',
                    // backgroundColor:"rgb(255, 225, 0)",
